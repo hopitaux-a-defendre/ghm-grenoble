@@ -4,6 +4,13 @@
     Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+:root {
+  --amaranth: #d52349;
+  --aubergine: #353132;
+  --cardinal: #c51349;
+  --venus: #827a7c;
+}
+
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
@@ -21,20 +28,20 @@
     {
         font-family: 'Source Sans Pro';
         font-weight: 300;
-        background: #252122;
+        background: var(--aubergine);
         background-image: url('images/bg02.png');
         color: #5d5d5d;
     }
 
     strong, b
     {
-        color: #252122;
+        color: var(--aubergine);
         font-weight: 700;
     }
 
     h1, h2, h3, h4, h5, h6
     {
-        color: #252122;
+        color: var(--aubergine);
         font-weight: 700;
     }
 
@@ -46,13 +53,14 @@
 
     a
     {
-        color: #d52349;
+        color: var(--amaranth);
         text-decoration: underline;
     }
 
         a:hover
         {
             text-decoration: none;
+            color: var(--amaranth) !important;
         }
 
     blockquote {
@@ -160,7 +168,7 @@
             cursor: pointer;
             border: 0;
             border-radius: 5px;
-            background: #d52349;
+            background: var(--amaranth);
             color: #fff !important;
             font-weight: 700;
             outline: 0;
@@ -173,22 +181,22 @@
 
             .button:hover
             {
-                background: #e53359;
+                background: var(--amaranth);
             }
 
             .button:active
             {
-                background: #c51349;
+                background: var(--cardinal);
             }
 
             .button-alt
             {
-                background: #252122;
+                background: var(--aubergine);
             }
 
                 .button-alt:hover
                 {
-                    background: #353132;
+                    background: var(--aubergine);
                 }
 
                 .button-alt:active
@@ -389,7 +397,7 @@
                 position: absolute;
                 left: 0;
                 top: 1.3em;
-                background-color: #d52349;
+                background-color: var(--amaranth);
                 height: 3.5em;
                 text-align: center;
                 color: #fff;
@@ -406,7 +414,7 @@
                     position: absolute;
                     bottom: 0;
                     right: -1.2em;
-                    border-left: solid 1.25em #d52349;
+                    border-left: solid 1.25em var(--amaranth);
                     border-top: solid 1.8em transparent;
                     border-bottom: solid 1.8em transparent;
                 }
@@ -510,7 +518,7 @@
         {
             position: relative;
             display: inline-block;
-            background-color: #d52349;
+            background-color: var(--amaranth);
             width: 9em;
             padding: 1.5em 0 0.5em 0;
             border-top-left-radius: 5px;
@@ -523,7 +531,7 @@
                 position: absolute;
                 bottom: -1.98em;
                 left: 0;
-                border-top: solid 2em #d52349;
+                border-top: solid 2em var(--amaranth);
                 border-left: solid 4.5em transparent;
                 border-right: solid 4.5em transparent;
             }
@@ -536,22 +544,22 @@
 
             .pennant-alt
             {
-                background-color: #252122;
+                background-color: var(--aubergine);
             }
 
                 .pennant-alt:after
                 {
-                    border-top-color: #252122;
+                    border-top-color: var(--aubergine);
                 }
 
             .pennant-alt2
             {
-                background-color: #827a7c;
+                background-color: var(--venus);
             }
 
                 .pennant-alt2:after
                 {
-                    border-top-color: #827a7c;
+                    border-top-color: var(--venus);
                 }
 
 /*********************************************************************************/
@@ -570,7 +578,7 @@
 
         #banner header
         {
-            background-color: #252122;
+            background-color: var(--aubergine);
             background-color: rgba(34,30,31,0.98);
             text-align: center;
         }
@@ -583,7 +591,7 @@
 
             #banner header .byline
             {
-                color: #d52349;
+                color: var(--amaranth);
                 padding: 0;
                 font-style: normal;
             }
@@ -640,11 +648,6 @@
     {
         text-align: center;
         font-size: 1.4em;
-    }
-
-    #header-description
-    {
-        text-align: center;
     }
 
     #main-wrapper
