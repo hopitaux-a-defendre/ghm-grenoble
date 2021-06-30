@@ -2,10 +2,11 @@
 # -*- coding: utf-8 -*- #
 
 # NEXT STEPS:
-# + DESCRIPTION & META_IMAGE
-# + make it smartphone-friendly
 # + tuto pour soumettre un article + JS form that submits a PR + email to send infos
 #    cf. https://gist.github.com/bmcbride/62600e48274961819084
+# + rédiger page "Historique / timeline avec Lise ?
+# + email potos (Pierre, Tanguy, ...) por demander conseils de quoi y faire figurer ?
+# + section contacts
 NOINDEX = True  # temporary
 
 import logging
@@ -13,21 +14,25 @@ logging.root.setLevel(logging.INFO)
 
 SITENAME = 'Hôpitaux À Défendre : GHM @ Grenoble'
 SITESUBTITLE = 'Suivi de la lutte des employés du Groupe Hospitalier Mutualiste à Grenoble'
-DESCRIPTION = '''
-
+ABOUT_TEXT = '''
+Le <b>Groupe Hospitalier Mutualiste de Grenoble</b>, surnommé « La Mut’ », autrefois géré par la mutuelle ADREA, a été racheté par le groupe <b>AVEC</b> (ex Doctegestio) en octobre 2020, malgré une opposition des salariés et usagers. Ce rachat pose plusieurs problèmes : menace de passer au privé à but lucratif, gel des embauches, management toxique...
 '''
 
 TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = 'fr'
 
 # "Open Graph tags do not acknowledge <base>, and should always have full absolute URLs" - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-META_IMAGE = ''
+META_IMAGE = 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Dr_Hermitte_street_in_grenoble_%28outside%29.jpg/640px-Dr_Hermitte_street_in_grenoble_%28outside%29.jpg'
+META_IMAGE_TYPE = 'image/jpeg'
+ABOUT_IMAGE = META_IMAGE
+COPYRIGHT = 'Photo du GHM : Jean-Paul Corlin - <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">CC BY-SA 4.0</a> (<a href="https://commons.wikimedia.org/wiki/File:Dr_Hermitte_street_in_grenoble_(outside).jpg">Wikipédia</a>)'
 
 LINKS = (
     ("Touche pas à ma Mut' - Collectif des usagers des cliniques mutualistes de Grenoble", "https://www.touchepasamamut.fr"),
     ("Page Wikipédia du GHM de Grenoble", "https://fr.wikipedia.org/wiki/Groupe_hospitalier_mutualiste_de_Grenoble"),
+    ("GHM de Grenoble sur Google Maps", "https://g.page/ghmgrenoble?share"),
     ("Site officiel du GHM de Grenoble", "https://www.ghm-grenoble.fr"),
-    ("Sources de ce site web", "https://github.com/hopitaux-a-defendre/ghm-grenoble/"),
+    ("Sources de ce site web @GitHub", "https://github.com/hopitaux-a-defendre/ghm-grenoble/"),
 )
 
 PATH = './content'
