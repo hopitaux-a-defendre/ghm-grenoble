@@ -43,7 +43,7 @@ OUTPUT_PATH = './output'
 MARKDOWN = {'output_format': 'html5'}
 
 PLUGIN_PATHS = ['../pelican-plugins']
-PLUGINS = ('i18n_subsites', 'representative_image', 'w3c_validate')
+PLUGINS = ('i18n_subsites', 'representative_image')#, 'w3c_validate')
 logging.getLogger('i18n_subsites.i18n_subsites').setLevel(logging.DEBUG)
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 I18N_TEMPLATES_LANG = 'en'
