@@ -13,9 +13,11 @@ import logging
 logging.root.setLevel(logging.INFO)
 
 SITENAME = 'Hôpitaux À Défendre : GHM @ Grenoble'
-SITESUBTITLE = 'Suivi de la lutte des employés du Groupe Hospitalier Mutualiste à Grenoble'
+SITESUBTITLE = 'Suivi de la lutte des soignants du Groupe Hospitalier Mutualiste à Grenoble'
 ABOUT_TEXT = '''
 Le <b>Groupe Hospitalier Mutualiste de Grenoble</b>, surnommé « La Mut’ », autrefois géré par la mutuelle ADREA, a été racheté par le groupe <b>AVEC</b> (ex Doctegestio) en octobre 2020, malgré une opposition des salariés et usagers. Ce rachat pose plusieurs problèmes : menace de passer au privé à but lucratif, gel des embauches, management toxique...
+<br>
+Ce site web vise à servir de <b>revue de presse</b> pour couvrir cette affaire.
 '''
 
 TIMEZONE = 'Europe/Paris'
