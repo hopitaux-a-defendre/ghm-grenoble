@@ -29,6 +29,7 @@ COPYRIGHT = 'Photo du GHM : Jean-Paul Corlin - <a href="https://creativecommons.
 
 LINKS = (
     ("Touche pas à ma Mut' - Collectif des usagers des cliniques mutualistes de Grenoble", "https://www.touchepasamamut.fr"),
+    ("Association des Amis des Cliniques Mutualistes de Grenoble", "https://amisdescliniquesmutualistesgrenoble.fr/index.php/les-cliniques-vendues/"),
     ("Page Wikipédia du GHM de Grenoble", "https://fr.wikipedia.org/wiki/Groupe_hospitalier_mutualiste_de_Grenoble"),
     ("GHM de Grenoble sur Google Maps", "https://g.page/ghmgrenoble?share"),
     ("Site officiel du GHM de Grenoble", "https://www.ghm-grenoble.fr"),
