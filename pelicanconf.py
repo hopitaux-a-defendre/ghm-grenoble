@@ -7,7 +7,6 @@
 # + rédiger page "Historique / timeline avec Lise ?
 # + email potos (Pierre, Tanguy, ...) por demander conseils de quoi y faire figurer ?
 # + section contacts
-NOINDEX = True  # temporary
 
 import logging
 logging.root.setLevel(logging.INFO)
