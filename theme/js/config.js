@@ -6,7 +6,7 @@
 
 window._skel_config = {
 	preset: 'standard',
-	prefix: window.SITEURL+'/theme/css/style',
+	prefix: window.SITEURL + '/theme/css/style',
 	resetCSS: true,
 	breakpoints: {
 		'desktop': {
@@ -18,15 +18,24 @@ window._skel_config = {
 };
 
 window._skel_panels_config = {
-	preset: 'standard'
+    panels: {
+        navPanel: {
+            breakpoints: "mobile",
+            position: "left",
+            style: "push",
+            size: "40%",
+            html: '<h2 id="sideMenu">Menu</h2>'
+                // This "navList" action will copiy the content of #nav into the lateral navPanel:
+                + '<div data-action="navList" data-args="nav"></div>'
+        }
+    },
+    overlays: {
+        titleBar: {
+            breakpoints: "mobile",
+            position: "top-left",
+            width: "100%",
+            height: 44,
+            html: '<span class="toggle" data-action="togglePanel" data-args="navPanel"></span>'
+        }
+    }
 };
-
-jQuery(function() {
-	$('#nav > ul').dropotron({ 
-		offsetY: -17,
-		offsetX: -1,
-		mode: 'fade',
-		noOpenerFade: true,
-		detach: false
-	});
-});

@@ -146,7 +146,13 @@
         {
             background: #ffffff;
             border-bottom: solid 1px #ccc;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+            transition: all 0.3s cubic-bezier(.25,.8,.25,1);
         }
+
+            .box:hover {
+                box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+            }
 
             .box header
             {
@@ -648,6 +654,7 @@
     {
         text-align: center;
         font-size: 1.4em;
+        padding: 1em 0;
     }
 
     #main-wrapper
@@ -768,31 +775,35 @@
             margin: 0;
         }
 
-.img-copy {
-    float:right;
-    margin-right:2em;
-}
+    img.copyrights {
+        float:right;
+        margin-right:2em;
+    }
 
-article .date {
-    color: white;
-    float:left;
-    font-weight: bold;
-    font-size: 1em;
-    text-align:center;
-    margin-right: 2em;
-}
+/*********************************************************************************/
+/* Pelican
+/*********************************************************************************/
 
-article .post-infos {
-  float: right;
-    overflow: hidden;
-}
+    article .date {
+        color: white;
+        float:left;
+        font-weight: bold;
+        font-size: 1em;
+        text-align:center;
+        margin-right: 2em;
+    }
 
-article .post-infos .tags li {
-    float: left;
-    margin: 0 0.25em;
-}
+    article .post-infos {
+      float: right;
+        overflow: hidden;
+    }
 
-article em {
-  font-style: italic;
-  font-weight: bold;
-}
+    article .post-infos .tags li {
+        float: left;
+        margin: 0 0.25em;
+    }
+
+    article em {
+      font-style: italic;
+      font-weight: bold;
+    }

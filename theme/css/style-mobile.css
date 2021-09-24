@@ -181,6 +181,12 @@
 				background-color: rgba(150,150,150,0.75);
 			}
 
+	#sideMenu
+    {
+        color: #858484;
+        padding: 1em;
+    }
+
 	#navPanel
 	{
 		color: #858484;
