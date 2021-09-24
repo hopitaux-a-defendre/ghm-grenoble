@@ -27,6 +27,7 @@ jobs:
             git clone https://github.com/Lucas-C/html5-dopetrope ../html5-dopetrope
             git clone https://github.com/getpelican/pelican-plugins ../pelican-plugins
             invoke publish
+            cp google*.html $OUTPUT_PATH/
       - name: Deploy website 🚀
         uses: peaceiris/actions-gh-pages@v3
         with:
