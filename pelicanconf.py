@@ -6,7 +6,7 @@
 #   * faire remonter le bandeau du bas en haut pour que l'on comprenne le but du site dès la première vue d'écran.
 #   * titre cryptique : "Hôpitaux À Défendre : GHM @ Grenoble" peut-être trouver un titre plus explicite (le sous-titre est beaucoup plus clair)
 #   * utiliser une police d'écriture sans sérif
-#   * relayer les communiqué et tracts des personnels en lutte
+#   * relayer les communiqués et tracts des personnels en lutte
 #   * rajouter un lien vers une page "comment agir"
 # + tuto pour soumettre un article + JS form that submits a PR + email to send infos
 #    cf. https://gist.github.com/bmcbride/62600e48274961819084
