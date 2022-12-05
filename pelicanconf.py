@@ -23,6 +23,7 @@ SITESUBTITLE = 'Suivi de la lutte des soignants du Groupe Hospitalier Mutualiste
 
 TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = 'fr'
+LOCALE = 'fr_FR.utf8'  # impacts date format; must be installed with sudo dpkg-reconfigure locales
 
 THEME = '../html5-dopetrope'
 DISPLAY_HOMEPAGE_ON_MENU = True
@@ -60,7 +61,7 @@ PLUGIN_PATHS = ('../pelican-plugins',)
 PLUGINS = ('i18n_subsites', 'representative_image')#, 'w3c_validate')
 logging.getLogger('i18n_subsites.i18n_subsites').setLevel(logging.DEBUG)
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
-I18N_TEMPLATES_LANG = 'en'
+I18N_TEMPLATES_LANG = 'en'  # indicates the theme templates default language
 
 # Disabling generation of unnecessary pages:
 ARCHIVES_SAVE_AS = ''
